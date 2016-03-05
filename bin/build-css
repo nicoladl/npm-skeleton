@@ -1,0 +1,1 @@
+node-sass --include-path scss src/scss/gen.scss web/css/main.css && cleancss -o web/css/min/main.min.css web/css/main.css

@@ -1,0 +1,8 @@
+@import 'vendor/breakpoint';
+@import '_mixin.scss';
+@import '_reset.scss';
+@import '_variables.scss';
+
+body {
+	background-color: $white;
+}

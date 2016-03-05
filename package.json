@@ -1,0 +1,19 @@
+{
+  "name": "npm-skeleton",
+  "version": "1.0.0",
+  "description": "basic npm task runner",
+  "main": "index.js",
+  "author": "Nicola De Lazzari",
+  "license": "MIT",
+  "scripts": {
+    "build-css": "./bin/build-css",
+    "build-js": "./bin/clean-js",
+    "watch": "./bin/watch"
+  },
+  "devDependencies": {
+    "clean-css": "^3.4.10",
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.9.1",
+    "uglify-js": "^2.6.2"
+  }
+}
