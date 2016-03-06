@@ -1,3 +1,3 @@
 $(function() {
-    console.log('ciao ciao');
+    console.log('ciao');
 });

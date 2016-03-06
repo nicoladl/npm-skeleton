@@ -6,6 +6,7 @@
   "author": "Nicola De Lazzari",
   "license": "MIT",
   "scripts": {
+    "mkdir": "./bin/mkdir",
     "build-css": "./bin/build-css",
     "build-js": "./bin/build-js",
     "build-html": "./bin/build-html",

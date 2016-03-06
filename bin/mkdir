@@ -1,0 +1,1 @@
+mkdir -p web/css web/js prod/css prod/js
