@@ -7,13 +7,16 @@
   "license": "MIT",
   "scripts": {
     "build-css": "./bin/build-css",
-    "build-js": "./bin/clean-js",
+    "build-js": "./bin/build-js",
+    "build-html": "./bin/build-html",
     "watch": "./bin/watch"
   },
   "devDependencies": {
     "clean-css": "^3.4.10",
+    "html-minifier": "^1.2.0",
     "node-sass": "^3.4.2",
     "nodemon": "^1.9.1",
+    "replace": "^0.3.0",
     "uglify-js": "^2.6.2"
   }
 }

@@ -1,0 +1,1 @@
+html-minifier -o web/index.html src/index.html && html-minifier -o prod/index.html web/index.html && replace 'script.js' 'script.min.js' prod/index.html && replace 'style.css' 'style.min.css' prod/index.html
