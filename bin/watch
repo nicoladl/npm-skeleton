@@ -1,1 +1,4 @@
-npm run mkdir && nodemon --watch src/scss/ -x scss --exec npm run build-css & nodemon --watch src/js/ -x js --exec npm run build-js & nodemon --watch src/ -x html --exec npm run build-html
+npm run mkdir \
+&& nodemon -e scss -x npm run build-css \
+& nodemon --watch src/js/ -e js --exec npm run build-js \
+& nodemon --watch src/ -e html -x npm run build-html
