@@ -1,1 +1,1 @@
-nodemon -e scss -x npm run build-css && nodemon -e scss -x npm run build-js
+nodemon -e scss -x npm run build-css & nodemon -e js -x npm run build-js & nodemon -e html -x npm run build-html
