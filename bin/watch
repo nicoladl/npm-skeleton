@@ -1,4 +1,4 @@
 npm run mkdir \
-&& nodemon -e scss -x npm run build-css \
-& nodemon --watch src/js/ -e js --exec npm run build-js \
-& nodemon --watch src/ -e html -x npm run build-html
+&& nodemon --watch src/scss/ -e scss --exec npm run build-css localhost 3000 \
+& nodemon --watch src/js/ -e js --exec npm run build-js localhost 3000 \
+& nodemon --watch src/ -e html -x npm run build-html localhost 3000

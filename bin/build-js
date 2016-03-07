@@ -1,1 +1,2 @@
-uglifyjs -b -o web/js/script.js src/js/*.js && uglifyjs -c -o prod/js/script.min.js web/js/script.js
+uglifyjs -b -o web/js/script.js src/js/*.js \
+&& uglifyjs -c -o prod/js/script.min.js web/js/script.js
